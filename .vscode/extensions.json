@@ -1,0 +1,11 @@
+{
+  "recommendations": [
+    "bradlc.vscode-tailwindcss",
+    "dbaeumer.vscode-eslint",
+    "golang.go",
+    "ms-azuretools.vscode-containers",
+    "ms-azuretools.vscode-docker",
+    "prettier.prettier-vscode",
+    "tyriar.sort-lines"
+  ]
+}

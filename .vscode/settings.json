@@ -1,0 +1,68 @@
+{
+  "editor.codeLens": false,
+  "editor.colorDecorators": false,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+  "editor.insertSpaces": true,
+  "editor.minimap.enabled": false,
+  "editor.stickyScroll.enabled": false,
+  "editor.tabSize": 2,
+
+  "explorer.compactFolders": false,
+  "explorer.openEditors.minVisible": 0,
+  "explorer.openEditors.visible": 20,
+
+  "extensions.ignoreRecommendations": true,
+
+  "files.associations": {
+    "*.css": "tailwindcss"
+  },
+  "files.exclude": {
+    "**/.DS_Store": true,
+    "**/.git": true,
+    "**/.turbo": true,
+    "**/Thumbs.db": true,
+    "**/node_modules": true
+  },
+  "files.encoding": "utf8",
+  "files.insertFinalNewline": true,
+  "files.readonlyInclude": {
+    "**/routeTree.gen.ts": true
+  },
+  "files.trimTrailingWhitespace": true,
+  "files.watcherExclude": {
+    "**/.turbo/**": true,
+    "**/node_modules/**": true,
+    "**/routeTree.gen.ts": true
+  },
+
+  "js/ts.tsdk.path": "node_modules/typescript/lib",
+
+  "search.exclude": {
+    "**/.turbo": true,
+    "**/node_modules": true,
+    "**/pnpm-lock.yaml": true,
+    "**/tsconfig.tsbuildinfo": true,
+    "**/routeTree.gen.ts": true
+  },
+
+  "tailwindCSS.classFunctions": ["clsx", "cva", "tv"],
+  "tailwindCSS.colorDecorators": true,
+
+  "terminal.integrated.enablePersistentSessions": false,
+  "terminal.integrated.initialHint": false,
+  "terminal.integrated.stickyScroll.enabled": false,
+
+  "workbench.colorTheme": "Dark Modern",
+  "workbench.editor.empty.hint": "hidden",
+  "workbench.editor.restoreViewState": false,
+  "workbench.startupEditor": "none",
+
+  "[dockerfile]": {
+    "editor.defaultFormatter": "ms-azuretools.vscode-containers"
+  },
+
+  "[go]": {
+    "editor.defaultFormatter": "golang.go"
+  }
+}
