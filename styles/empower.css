@@ -645,8 +645,14 @@
     .lg\:w-125 {
       width: calc(var(--spacing) * 125);
     }
+    .lg\:w-\[500px\] {
+      width: 500px;
+    }
     .lg\:flex-none {
       flex: none;
+    }
+    .lg\:px-0 {
+      padding-inline: 0px;
     }
     .lg\:px-8 {
       padding-inline: calc(var(--spacing) * 8);
