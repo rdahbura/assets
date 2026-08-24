@@ -642,6 +642,9 @@
     .lg\:w-96 {
       width: calc(var(--spacing) * 96);
     }
+    .lg\:w-125 {
+      width: calc(var(--spacing) * 125);
+    }
     .lg\:flex-none {
       flex: none;
     }
