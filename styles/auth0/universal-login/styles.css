@@ -3,14 +3,16 @@
 @layer theme {
   :root,
   :host {
-    --font-sans: "Inter", sans-serif;
+    --font-sans:
+      -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue",
+      "Noto Sans", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
+      "Segoe UI Symbol", "Noto Color Emoji";
     --font-mono:
       ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono",
       "Courier New", monospace;
     --color-gray-100: oklch(96.7% 0.003 264.542);
     --default-font-family: var(--font-sans);
     --default-mono-font-family: var(--font-mono);
-    --font-sans-var: "InterVariable", sans-serif;
   }
 }
 @layer base {
@@ -285,12 +287,13 @@
   }
 }
 :root {
-  --font-family: var(--font-sans);
-  --default-font-family: var(--font-sans);
+  font-family: Inter, sans-serif;
+  font-feature-settings:
+    "liga" 1,
+    "calt" 1;
 }
 @supports (font-variation-settings: normal) {
   :root {
-    --font-family: var(--font-sans-var);
-    --default-font-family: var(--font-sans-var);
+    font-family: InterVariable, sans-serif;
   }
 }
