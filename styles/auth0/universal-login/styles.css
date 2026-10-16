@@ -7,11 +7,12 @@
     --font-mono:
       ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono",
       "Courier New", monospace;
+    --color-gray-100: oklch(96.7% 0.003 264.542);
+    --color-gray-200: oklch(92.8% 0.006 264.531);
     --color-gray-300: oklch(87.2% 0.01 258.338);
+    --color-gray-500: oklch(55.1% 0.027 264.364);
     --default-font-family: var(--font-sans);
-    --default-font-feature-settings: var(--font-sans--font-feature-settings);
     --default-mono-font-family: var(--font-mono);
-    --font-sans--font-feature-settings: "calt", "liga";
   }
 }
 @layer base {
@@ -265,8 +266,17 @@
   .justify-center {
     justify-content: center;
   }
+  .bg-gray-100 {
+    background-color: var(--color-gray-100);
+  }
+  .bg-gray-200 {
+    background-color: var(--color-gray-200);
+  }
   .bg-gray-300 {
     background-color: var(--color-gray-300);
+  }
+  .bg-gray-500 {
+    background-color: var(--color-gray-500);
   }
   .bg-\[url\(https\:\/\/images\.unsplash\.com\/photo-1590283603385-17ffb3a7f29f\?ixlib\=rb-4\.0\.3\&auto\=format\&fit\=crop\&w\=1920\&q\=80\)\] {
     background-image: url(https://images.unsplash.com/photo-1590283603385-17ffb3a7f29f?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&q=80);
