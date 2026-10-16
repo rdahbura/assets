@@ -9,6 +9,7 @@
     --color-gray-100: oklch(96.7% 0.003 264.542);
     --default-font-family: InterVariable, Inter, sans-serif;
     --default-mono-font-family: var(--font-mono);
+    --font-family: InterVariable, Inter, sans-serif;
   }
 }
 @layer base {
