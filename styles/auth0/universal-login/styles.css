@@ -286,9 +286,11 @@
 }
 :root {
   --font-family: var(--font-sans);
+  --default-font-family: var(--font-sans);
 }
 @supports (font-variation-settings: normal) {
   :root {
     --font-family: var(--font-sans-var);
+    --default-font-family: var(--font-sans-var);
   }
 }
