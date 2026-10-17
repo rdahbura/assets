@@ -3,12 +3,11 @@
 @layer theme {
   :root,
   :host {
-    --font-sans: "Inter", sans-serif;
     --font-mono:
       ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono",
       "Courier New", monospace;
     --color-gray-100: oklch(96.7% 0.003 264.542);
-    --default-font-family: var(--font-sans);
+    --default-font-family: "Inter", sans-serif;
     --default-mono-font-family: var(--font-mono);
     --font-family: "Inter", sans-serif;
   }
